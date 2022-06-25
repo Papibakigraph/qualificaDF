@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/botNavLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:addStatesFromChildren="false"
+    android:background="#0D62B0"
+    android:focusable="auto"
+    tools:context=".perfil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/logout_im"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="right|end"
+                android:layout_margin="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0"
+                android:tint="#FFFFFF"
+                app:srcCompat="@drawable/logout" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="323dp"
+                android:layout_height="145dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/profilep"
+                    android:layout_width="105dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="0"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    app:srcCompat="@drawable/perfil_radius" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/NOMEUSER"
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="left"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="NOME USUARIO"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:visibility="visible"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/CPFUSER"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="000.000.000-01"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/NOMEUSER3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="CURSO"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:visibility="visible"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/NOMEUSER4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="MATRICULADO"
+                        android:textColor="#8BC34A"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:visibility="visible"
+                        tools:visibility="visible" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/inflator_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="#FFFFFF"
+            android:gravity="clip_horizontal|center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/cabecalho"
+                android:layout_width="match_parent"
+                android:layout_height="236dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/imagefloat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center|center_horizontal|fill_horizontal"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/wall_perfil_a"
+                    android:gravity="center"
+                    android:padding="5dp">
+
+                    <ImageButton
+                        android:id="@+id/bfloatleft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/seta_left"
+                        android:tint="#00FFFFFF" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"></LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/bFloatright"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/seta_right" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/webviewcabe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:id="@+id/titleweb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Como chegar?"
+                        android:textColor="#A3000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <WebView
+                        android:id="@+id/webviewmaps"
+                        android:layout_width="337dp"
+                        android:layout_height="177dp"
+                        android:background="#FFFFFF"></WebView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bub_menu"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:background="#FFFFFF"
+            android:gravity="center|center_vertical|fill_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            tools:layout_editor_absoluteY="661dp">
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+
+                android:id="@+id/botLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                app:menu="@menu/barnav" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

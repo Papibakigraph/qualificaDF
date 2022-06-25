@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">qualidf</string>
+
+
+
+    <string-array name="planopiloto">
+        <item>Jardinagem e paisagismo</item>
+        <item>Assistente Administrativo</item>
+        <item>Auxiliar de Recursos Humanos</item>
+        <item>Auxiliar de Contabilidade</item>
+        <item>Auxiliar de Contabilidade - Intermediario</item>
+        <item>Auxiliar em Secretariado</item>
+        <item>Web Designer</item>
+        <item>Web Designer (Intermediario)</item>
+        <item>Operador de MicroComputador (Avancado Excel/Word)</item>
+        <item>Atendente de Consultório Medico /Dentário</item>
+        <item>Cuidador / Atendente de Pet Shop/ Tosador e Banhista de Animais</item>
+        <item>Cabelereiro / Feminimo</item>
+        <item>Cabelereiro / Feminino (Intermediario)</item>
+        <item>Cabelereiro / Barbeiro - Masculino </item>
+        <item>Maquiagem e Design de Sobrancelhas </item>
+        <item>Maquiagem e Design de Sobrancelhas (Intermediario)</item>
+        <item>Manicure e Pedicure </item>
+        <item>Estetica Facial e Corporal / Massagem Terapeutica </item>
+        <item>Cuidador de Idosos </item>
+        <item>Garcom / Barman /Barista </item>
+        <item>Auxiliar de Cozinha </item>
+        <item>Auxiliar de Cozinha (Intermediario) </item>
+        <item> Churrasco / Acogueiro / Preparador de Carnes </item>
+        <item> Orientador de Turismo (Operador de Turismo) </item>
+        <item>Porteiro Predial </item>
+        <item>Manutenção de Equipamento de Informatica </item>
+        <item>Desenvolvedor de Aplicativos para Android (Tecnico de Desenvolvimento de Sistemas de Aplicação) </item>
+        <item>Robotica</item>
+        <item>Panificação, Confeitaria, Salgadeiro e Pizzaiolo </item>
+        <item>Refrigeração e Ar Condicionado </item>
+        <item>Sistema Eletrico e Eletronico de Segurança (CFTV) </item>
+        <item>Bombeiro Hidraulico </item>
+        <item>Eletricista Predial </item>
+        <item>Eletricista de Sistema Fotovoltaicos </item>
+        <item>Pedreiro </item>
+        <item>Soldador / Serralheiro </item>
+        <item>Mecanica de Autos (Básica) </item>
+        <item>Mecanica de Motocicletas e afins </item>
+        <item>Corte e Costura </item>
+
+    </string-array>
+
+    <string-array name="ceilandia">
+        <item>Assistente Administrativo </item>
+        <item>Auxiliar de Recursos Humanos </item>
+        <item>Auxiliar de Contabilidade </item>
+        <item>Auxiliar de Contabilidade (Intermediario) </item>
+        <item>Almoxarife e Estoquista (Armazenista) </item>
+        <item>Auxiliar em Secretariado </item>
+        <item>Atendente de Consutório Médico / Dentário </item>
+        <item>Atendente de Farmácia </item>
+        <item>Maquiagem e Design de Sobrancelhas </item>
+        <item>Maquiagem e Design de Sobrancelhas (Intermediario) </item>
+        <item>Manicure e Pedicure </item>
+        <item>Cuidador de Idosos </item>
+        <item>Cuidador Infantil (Basy-Sitter) </item>
+
+    </string-array>
+
+    <string-array name="gama">
+        <item>Assistente Administrativo </item>
+        <item>Auxiliar de Contabildade </item>
+        <item>Auxiliar de Arquivo (Auxiliar de Servicos de Documentação, Informação e Pesquisa) </item>
+        <item>Recepcionista </item>
+        <item>Atendente de Farmácia </item>
+        <item>Manicure e Pendicure </item>
+        <item>Maquiagem e Design de Sobrancelhas </item>
+
+    </string-array>
+
+    <string-array name="guara">
+        <item>Assistente Administrativo </item>
+        <item>Auxiliar de Recursos Humanos </item>
+        <item>Auxiliar de Contabilidade </item>
+        <item>Auxiliar em Secretariado </item>
+
+    </string-array>
+
+    <string-array name="sobradinho">
+        <item>Asistente Administrativo </item>
+        <item>Maquiagem e Design de Sobrancelhas </item>
+
+    </string-array>
+
+    <string-array name="sao_sebastiao">
+        <item>Fruticultura e Agricultura Basica </item>
+        <item>JArdinagem e Paisagismo </item>
+
+    </string-array>
+
+    <string-array name="nucleobandeirante">
+        <item>Assistente Administrativo </item>
+        <item>Maquiagem e Design de Sobrancelhas </item>
+        <item>Manicure e Pendicurer </item>
+
+    </string-array>
+
+    <string-array name="paranoa">
+        <item>Assistente Administrativo </item>
+        <item>Auxiliar de Contabilidade </item>
+        <item>Maquiagem e Design de Sobrancelhas </item>
+        <item>Manicure e Pedicure </item>
+        <item>Eletricista Predial </item>
+
+    </string-array>
+
+    <string-array name="planaltina">
+        <item>Mecanização Agricola </item>
+        <item>Fruticultura e Agricultura Básica </item>
+        <item>Assistente Administrativo </item>
+        <item>Atentende de Farmácia </item>
+        <item>Cuidador de Idoso </item>
+        <item>Maquiagem e Design de Sobrancelhas </item>
+        <item>Porteiro Predial </item>
+        <item>Jardinagem e Paisagismo </item>
+
+    </string-array>
+</resources>

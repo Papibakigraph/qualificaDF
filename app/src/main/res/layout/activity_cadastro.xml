@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cadastro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:id="@+id/navbar_cadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+
+                android:tint="#085EAE"
+                app:srcCompat="?attr/actionModeCloseDrawable"
+                tools:srcCompat="?attr/actionModeCloseDrawable" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CADASTRO"
+                android:textColor="#085EAE"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/cadastro_name7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:autoText="false"
+                android:background="#E5E5E5"
+                android:ems="10"
+                android:hint="NOME"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:shadowColor="#E2000000"
+                android:textColor="#9C000000"
+                android:textColorHint="#9C000000"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/cadastro_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:autoText="false"
+                android:background="#E5E5E5"
+                android:ems="10"
+                android:hint="DATA DE NASC."
+                android:inputType="date|textShortMessage|text|textEmailAddress"
+                android:padding="10dp"
+                android:shadowColor="#E2000000"
+                android:textColor="#9C000000"
+                android:textColorHint="#9C000000"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/cadastro_cpf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:autoText="false"
+                android:background="#E5E5E5"
+                android:ems="10"
+                android:hint="CPF"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:shadowColor="#E2000000"
+                android:textColor="#9C000000"
+                android:textColorHint="#9C000000"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/cadastro_name4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:autoText="false"
+                android:background="#E5E5E5"
+                android:ems="10"
+                android:hint="ENDEREÇO"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:shadowColor="#E2000000"
+                android:textColor="#9C000000"
+                android:textColorHint="#9C000000"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/unidade_spinner_cadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:padding="10dp"
+                tools:listitem="@android:layout/list_content" />
+
+            <Spinner
+                android:id="@+id/curso_spinner_cadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:padding="10dp"
+                tools:listitem="@android:layout/list_content" />
+
+            <Spinner
+                android:id="@+id/turno_spinner_cadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:padding="10dp"
+                tools:listitem="@android:layout/list_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|end"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/inc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal|end"
+                    android:background="#000000"
+                    android:foregroundGravity="bottom|center_horizontal"
+                    android:text="inscreva-se"
+                    android:textColor="#085EAE"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#FFD645" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+  </androidx.constraintlayout.widget.ConstraintLayout>
